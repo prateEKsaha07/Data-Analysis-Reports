@@ -94,7 +94,7 @@ To analyze the effectiveness of marketing efforts by evaluating sales performanc
 * Variance Analysis
 
 ## Dashboard Preview
-[!Marketing analysis](images\Marketing_analysis.png)
+[!Marketing analysis](images\Marketing_Analysis.png)
 
 
 ## Growth and Time-Based Sales Analysis
