@@ -28,7 +28,7 @@ To analyze customer behavior, revenue contribution, and profitability trends in 
 * Revenue Contribution %
 
 ## Dashboard Preview
-![Customer Profit Analysis](Customer-&-Profit-Analysis/customer_and_profit_analysis.png)
+![Customer Profit Analysis](images\customer_and_profit_analysis.png)
 
 ## Performance and Profitability Analysis
 ### Objective
@@ -51,7 +51,7 @@ To evaluate overall sales performance across product categories and marketing se
 * Context Transition and Filter Modification
 
 ## Dashboard Preview
-![Performance Profitability Analysis](images/performance-profitability.png)
+![Performance Profitability Analysis](images\Profitablity_performance.png)
 
 ## Customer Profitability Analysis
 ###Objective
@@ -69,7 +69,7 @@ To identify profitable and loss-generating customers and measure long-term value
 * Profitability varies across regions
 
 ## Dashboard Preview
-![Customer Profitability](images/customer-profitability.png)
+![Customer Profitability](images\Customer_and_profitablity.png)
 
 
 ### Marketing Analysis
@@ -94,7 +94,7 @@ To analyze the effectiveness of marketing efforts by evaluating sales performanc
 * Variance Analysis
 
 ## Dashboard Preview
-[!Marketing analysis]()
+[!Marketing analysis](images\Marketing_analysis.png)
 
 
 ## Growth and Time-Based Sales Analysis
@@ -115,7 +115,7 @@ To analyze sales trends over time and measure growth performance.
 * Context transition using CALCULATE
 
 ## Dashboard Preview
-![Growth Time Analysis](images/growth-time-analysis.png)
+![Growth Time Analysis](images\Growth_and_time.png)
 
 ## Executive Dashboard
 
@@ -138,7 +138,7 @@ To provide high-level KPI monitoring for decision-makers and stakeholders.
 * Interactive Filters and Slicers
 
 ## Dashboard Preview
-![Executive Dashboard](images/executive-dashboard.png)
+![Executive Dashboard](images\Executive_Dashboard.png)
 
 ## Data Modeling Approach
 Across projects, a star schema model was implemented:
