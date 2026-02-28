@@ -1,0 +1,501 @@
+Date,Region,Category,Segment,Customer Name,Revenue,Cost,Discount,Profit
+2025-02-18,South,Office Supplies,Consumer,Customer_93,1997.79,1510.72,0.29,197.39
+2025-04-04,East,Electronics,Consumer,Customer_64,3073.56,1704.59,0.05,1292.13
+2025-05-31,North,Office Supplies,Consumer,Customer_40,478.8,340.13,0.26,76.43
+2025-04-17,East,Electronics,Home Office,Customer_88,3598.75,3021.04,0.01,559.72
+2025-02-11,South,Office Supplies,Consumer,Customer_37,4195.72,2364.87,0.06,1704.98
+2025-01-19,West,Office Supplies,Consumer,Customer_94,1080.34,738.59,0.09,293.13
+2025-01-10,East,Electronics,Consumer,Customer_85,2273.34,1623.5,0.09,547.54
+2025-05-17,East,Office Supplies,Corporate,Customer_73,869.57,546.29,0.09,284.15
+2025-01-22,South,Electronics,Home Office,Customer_44,2389.14,1361.54,0.24,740.9
+2025-01-18,North,Electronics,Home Office,Customer_28,2668.33,1377.55,0.18,1050.63
+2025-03-15,East,Electronics,Consumer,Customer_98,3116.22,1629.06,0.05,1409.25
+2025-01-11,North,Furniture,Consumer,Customer_95,4754.65,3722.6,0.29,342.63
+2025-06-13,West,Office Supplies,Home Office,Customer_70,1662.15,1229.13,0.03,408.09
+2025-01-03,South,Office Supplies,Corporate,Customer_55,2312.73,1557.19,0.04,709.29
+2025-03-16,East,Electronics,Corporate,Customer_73,365.06,215.59,0.27,100.19
+2025-02-01,West,Office Supplies,Home Office,Customer_42,3380.11,2305.32,0.09,922.69
+2025-02-22,East,Electronics,Corporate,Customer_4,2824.21,2370.51,0.06,368.97
+2025-05-15,North,Electronics,Home Office,Customer_25,3920.64,3188.22,0.28,183.53
+2025-03-29,North,Electronics,Home Office,Customer_49,3069.92,1630.04,0.28,1010.09
+2025-02-08,South,Electronics,Consumer,Customer_65,1140.72,700.25,0.01,434.77
+2025-06-09,South,Electronics,Corporate,Customer_23,2065.65,1631.98,0.08,351.04
+2025-06-11,North,Office Supplies,Consumer,Customer_65,1912.42,1319.46,0.08,516.46
+2025-02-07,South,Office Supplies,Corporate,Customer_91,876.44,461.09,0.24,310.18
+2025-03-23,East,Office Supplies,Home Office,Customer_28,4937.06,2811.9,0.23,1557.4
+2025-06-21,West,Office Supplies,Consumer,Customer_100,226.51,169.29,0.24,30.04
+2025-02-01,West,Office Supplies,Home Office,Customer_89,3699.23,1945.48,0.23,1328.34
+2025-03-10,East,Electronics,Corporate,Customer_20,1920.64,1540.52,0.03,351.31
+2025-05-29,North,Furniture,Consumer,Customer_84,3191.83,1666.92,0.1,1365.32
+2025-01-14,North,Furniture,Consumer,Customer_96,1692.72,1278.62,0.1,329.46
+2025-05-17,East,Electronics,Consumer,Customer_51,3260.28,2168.98,0.27,651.16
+2025-06-08,South,Furniture,Consumer,Customer_98,774.05,593.13,0.21,99.64
+2025-01-04,North,Electronics,Home Office,Customer_16,2894.13,1947.25,0.23,614.06
+2025-01-31,East,Office Supplies,Home Office,Customer_91,2709.12,1378.66,0.13,1154.37
+2025-05-07,East,Office Supplies,Home Office,Customer_39,717.88,518.84,0.01,195.45
+2025-03-29,West,Electronics,Home Office,Customer_75,1708.91,1397.29,0.15,183.45
+2025-05-18,East,Office Supplies,Home Office,Customer_67,1396.6,1067.62,0.12,245.18
+2025-04-18,North,Furniture,Corporate,Customer_93,1298.23,780.77,0.02,504.48
+2025-06-16,North,Furniture,Corporate,Customer_35,973.86,762.38,0.28,75.14
+2025-06-27,North,Furniture,Corporate,Customer_89,3240.34,2531.63,0.26,287.47
+2025-04-13,East,Office Supplies,Corporate,Customer_55,1095.54,754.57,0.27,193.07
+2025-01-08,East,Furniture,Corporate,Customer_47,4075.71,2491.49,0.27,1034.0
+2025-04-01,West,Furniture,Corporate,Customer_97,728.25,472.99,0.07,229.77
+2025-05-15,South,Electronics,Corporate,Customer_98,4126.47,2073.28,0.26,1516.75
+2025-06-22,East,Office Supplies,Corporate,Customer_97,2651.59,1531.92,0.13,947.32
+2025-03-20,West,Office Supplies,Home Office,Customer_15,775.35,643.55,0.1,93.03
+2025-05-29,East,Electronics,Consumer,Customer_5,1751.37,1306.62,0.16,304.64
+2025-06-13,East,Electronics,Corporate,Customer_88,1945.42,1628.04,0.29,35.29
+2025-06-30,East,Furniture,Consumer,Customer_83,1408.56,852.61,0.15,450.31
+2025-03-07,South,Electronics,Home Office,Customer_92,1567.23,1117.98,0.01,441.41
+2025-04-22,South,Furniture,Home Office,Customer_92,2612.86,1561.25,0.02,1025.48
+2025-04-08,North,Furniture,Consumer,Customer_82,4559.68,2511.08,0.07,1889.01
+2025-04-25,West,Furniture,Consumer,Customer_54,2549.37,1490.67,0.3,676.29
+2025-03-23,West,Electronics,Consumer,Customer_96,3426.25,1998.1,0.23,1034.13
+2025-02-05,West,Furniture,Corporate,Customer_74,3695.44,2665.55,0.11,826.64
+2025-01-10,North,Office Supplies,Home Office,Customer_59,3240.94,1722.89,0.16,1258.77
+2025-01-30,West,Office Supplies,Consumer,Customer_76,4209.45,2379.52,0.1,1619.46
+2025-01-22,North,Office Supplies,Corporate,Customer_83,395.72,291.7,0.18,68.41
+2025-05-26,North,Furniture,Consumer,Customer_96,279.62,161.98,0.15,96.67
+2025-01-22,North,Office Supplies,Corporate,Customer_81,3296.83,2445.68,0.05,768.73
+2025-05-06,South,Office Supplies,Home Office,Customer_63,2056.33,1127.14,0.28,641.3
+2025-02-19,South,Electronics,Home Office,Customer_64,1837.12,1513.13,0.03,296.43
+2025-01-30,West,Electronics,Consumer,Customer_12,4411.23,3224.58,0.08,1010.2
+2025-02-28,South,Electronics,Consumer,Customer_79,4122.67,2825.59,0.17,946.65
+2025-04-20,South,Office Supplies,Consumer,Customer_35,1360.89,1107.8,0.03,232.68
+2025-01-05,West,Office Supplies,Home Office,Customer_74,4522.01,2797.59,0.19,1294.83
+2025-05-16,North,Electronics,Consumer,Customer_52,1876.21,1527.21,0.22,142.62
+2025-05-27,East,Furniture,Corporate,Customer_44,4458.01,3230.77,0.23,714.57
+2025-01-30,East,Office Supplies,Home Office,Customer_35,603.87,491.85,0.05,96.92
+2025-01-25,West,Office Supplies,Corporate,Customer_5,3110.86,1665.91,0.0,1444.95
+2025-04-09,North,Electronics,Corporate,Customer_28,3384.81,1882.91,0.0,1501.9
+2025-04-14,South,Electronics,Corporate,Customer_85,2833.92,2063.62,0.21,472.74
+2025-06-21,West,Furniture,Home Office,Customer_60,1276.49,744.24,0.21,398.22
+2025-06-21,West,Furniture,Home Office,Customer_17,1761.92,1281.57,0.22,286.54
+2025-06-21,West,Office Supplies,Home Office,Customer_10,4276.27,2988.72,0.2,859.92
+2025-04-18,West,Electronics,Consumer,Customer_94,649.64,385.12,0.11,228.79
+2025-01-25,East,Electronics,Home Office,Customer_9,1371.15,874.22,0.29,298.11
+2025-06-13,South,Electronics,Consumer,Customer_51,4481.82,3487.68,0.19,568.37
+2025-05-15,East,Furniture,Corporate,Customer_1,2612.66,1756.7,0.17,633.88
+2025-06-23,North,Furniture,Corporate,Customer_48,1137.17,680.34,0.22,331.74
+2025-02-07,East,Furniture,Consumer,Customer_16,316.72,177.99,0.19,108.64
+2025-06-30,East,Electronics,Consumer,Customer_75,4714.2,3866.6,0.29,164.04
+2025-03-25,West,Office Supplies,Corporate,Customer_62,1976.76,1630.65,0.0,346.11
+2025-01-31,West,Office Supplies,Home Office,Customer_61,2255.28,1888.27,0.29,39.99
+2025-01-10,West,Office Supplies,Consumer,Customer_42,4294.45,2726.05,0.09,1375.15
+2025-04-08,East,Office Supplies,Home Office,Customer_29,4285.46,2396.95,0.1,1674.24
+2025-05-04,North,Electronics,Home Office,Customer_9,2872.65,2136.13,0.28,334.35
+2025-05-07,North,Furniture,Home Office,Customer_32,2936.29,2100.19,0.03,792.06
+2025-06-13,South,Furniture,Home Office,Customer_47,4952.26,3374.55,0.04,1478.66
+2025-06-25,South,Electronics,Consumer,Customer_97,4411.39,3281.88,0.22,644.26
+2025-06-15,East,Office Supplies,Consumer,Customer_62,3571.92,2153.0,0.11,1222.46
+2025-06-14,West,Office Supplies,Home Office,Customer_15,4084.93,3282.14,0.24,312.6
+2025-03-09,West,Electronics,Home Office,Customer_31,4583.55,3096.33,0.15,1143.45
+2025-06-30,West,Electronics,Home Office,Customer_23,4031.82,3006.48,0.19,642.32
+2025-01-20,West,Electronics,Consumer,Customer_73,4019.8,2485.44,0.27,991.69
+2025-05-11,East,Electronics,Home Office,Customer_17,2002.8,1406.76,0.03,566.0
+2025-03-16,South,Furniture,Home Office,Customer_97,372.52,257.01,0.14,89.43
+2025-01-27,East,Furniture,Home Office,Customer_28,1575.4,804.52,0.18,629.09
+2025-06-08,East,Electronics,Home Office,Customer_70,379.27,237.45,0.25,94.41
+2025-01-10,West,Office Supplies,Corporate,Customer_80,809.89,623.21,0.16,121.89
+2025-03-23,West,Electronics,Corporate,Customer_70,1235.94,654.89,0.19,463.64
+2025-05-22,West,Office Supplies,Home Office,Customer_67,448.07,308.82,0.16,103.4
+2025-06-16,North,Office Supplies,Home Office,Customer_69,3259.66,2743.16,0.22,157.94
+2025-05-26,South,Office Supplies,Corporate,Customer_20,2678.24,2084.51,0.1,459.82
+2025-02-19,East,Furniture,Corporate,Customer_72,1499.99,791.18,0.13,611.31
+2025-03-27,East,Electronics,Home Office,Customer_14,321.68,254.96,0.29,20.08
+2025-03-28,West,Furniture,Corporate,Customer_2,3540.68,1985.09,0.12,1343.15
+2025-06-12,East,Office Supplies,Home Office,Customer_93,950.9,658.24,0.08,254.62
+2025-05-18,West,Office Supplies,Corporate,Customer_45,3630.06,2170.69,0.2,1096.36
+2025-04-07,North,Office Supplies,Corporate,Customer_1,4783.35,3319.76,0.22,937.42
+2025-03-30,South,Electronics,Consumer,Customer_83,3136.26,1840.06,0.13,1092.34
+2025-05-17,West,Office Supplies,Consumer,Customer_94,1908.67,963.95,0.23,725.22
+2025-02-16,East,Electronics,Consumer,Customer_19,757.15,389.37,0.01,363.99
+2025-03-27,North,Furniture,Home Office,Customer_31,4306.21,2867.77,0.21,986.29
+2025-06-25,South,Office Supplies,Home Office,Customer_49,669.6,445.76,0.15,173.62
+2025-06-15,North,Furniture,Consumer,Customer_24,1031.37,659.54,0.13,304.79
+2025-03-06,East,Furniture,Home Office,Customer_52,3156.08,1628.08,0.19,1228.17
+2025-06-03,East,Furniture,Corporate,Customer_99,1998.14,1350.94,0.19,457.38
+2025-01-10,East,Office Supplies,Corporate,Customer_49,4311.15,2401.43,0.2,1478.6
+2025-03-16,West,Electronics,Home Office,Customer_7,538.73,274.36,0.19,213.19
+2025-06-04,North,Office Supplies,Consumer,Customer_2,3011.72,2112.47,0.28,477.61
+2025-05-02,West,Office Supplies,Home Office,Customer_34,2063.22,1362.53,0.19,504.68
+2025-04-17,East,Office Supplies,Home Office,Customer_13,2818.96,1790.42,0.28,633.89
+2025-05-01,North,Electronics,Corporate,Customer_49,4813.71,2736.72,0.27,1427.14
+2025-05-27,East,Electronics,Corporate,Customer_6,532.93,269.86,0.03,255.08
+2025-01-09,South,Furniture,Corporate,Customer_17,653.33,342.94,0.2,245.06
+2025-04-12,South,Office Supplies,Consumer,Customer_99,1731.08,879.64,0.25,635.05
+2025-05-31,South,Furniture,Consumer,Customer_44,4109.45,2224.68,0.08,1720.39
+2025-04-14,West,Electronics,Consumer,Customer_27,3544.34,2860.69,0.19,346.94
+2025-05-27,South,Furniture,Corporate,Customer_53,3728.34,2232.2,0.24,1048.74
+2025-03-02,West,Electronics,Home Office,Customer_83,1051.71,822.85,0.23,107.91
+2025-01-21,South,Electronics,Corporate,Customer_34,4954.42,3122.31,0.12,1534.84
+2025-04-15,North,Office Supplies,Consumer,Customer_99,3926.78,3242.6,0.1,487.84
+2025-06-20,East,Electronics,Corporate,Customer_32,4320.38,3295.61,0.13,743.95
+2025-05-26,North,Office Supplies,Home Office,Customer_37,3821.81,3118.19,0.03,646.29
+2025-06-28,North,Office Supplies,Home Office,Customer_69,2625.21,1606.67,0.25,690.39
+2025-03-13,West,Electronics,Home Office,Customer_21,4498.51,2266.32,0.12,1962.28
+2025-04-04,North,Furniture,Corporate,Customer_86,4545.83,2780.96,0.03,1696.68
+2025-06-07,West,Office Supplies,Home Office,Customer_60,4760.3,3335.56,0.29,734.5
+2025-02-18,West,Office Supplies,Home Office,Customer_91,3232.82,1948.17,0.13,1074.52
+2025-06-03,West,Electronics,Consumer,Customer_28,1777.59,1356.89,0.2,242.94
+2025-06-21,South,Office Supplies,Home Office,Customer_53,3999.58,2127.47,0.24,1392.16
+2025-03-09,North,Furniture,Consumer,Customer_99,2573.22,1781.53,0.02,765.96
+2025-05-24,West,Furniture,Corporate,Customer_61,2319.35,1444.54,0.27,561.7
+2025-02-01,East,Office Supplies,Corporate,Customer_74,761.92,584.03,0.04,162.65
+2025-06-04,East,Furniture,Home Office,Customer_55,3167.45,1676.97,0.03,1442.97
+2025-06-15,West,Office Supplies,Consumer,Customer_29,3564.65,2807.7,0.02,721.3
+2025-04-19,South,Furniture,Home Office,Customer_49,3589.96,1901.58,0.02,1652.48
+2025-05-06,East,Electronics,Home Office,Customer_66,4935.87,3108.24,0.11,1556.16
+2025-04-22,West,Office Supplies,Home Office,Customer_61,4101.44,3466.13,0.28,61.11
+2025-06-15,East,Furniture,Corporate,Customer_98,3816.22,2019.64,0.11,1586.69
+2025-06-30,North,Office Supplies,Corporate,Customer_45,3930.31,2548.72,0.17,1047.51
+2025-04-07,West,Electronics,Home Office,Customer_76,4550.5,3059.84,0.03,1422.4
+2025-06-16,East,Furniture,Consumer,Customer_7,254.5,132.27,0.14,104.41
+2025-04-27,South,Electronics,Consumer,Customer_21,770.33,560.2,0.04,194.72
+2025-06-02,East,Office Supplies,Consumer,Customer_57,3781.02,3163.81,0.18,276.92
+2025-04-19,East,Electronics,Home Office,Customer_7,1999.38,1607.52,0.09,301.89
+2025-04-14,West,Office Supplies,Home Office,Customer_49,1273.26,642.05,0.29,446.59
+2025-06-21,East,Furniture,Consumer,Customer_2,4855.42,3942.12,0.01,889.02
+2025-06-09,East,Electronics,Home Office,Customer_85,2732.97,1437.07,0.3,885.95
+2025-06-23,East,Furniture,Corporate,Customer_79,2858.5,1952.6,0.29,491.42
+2025-03-07,North,Furniture,Corporate,Customer_30,3221.11,2123.0,0.21,759.89
+2025-06-07,South,Office Supplies,Corporate,Customer_46,3212.28,2619.31,0.18,303.86
+2025-05-25,East,Office Supplies,Corporate,Customer_85,418.14,348.16,0.08,53.25
+2025-05-14,West,Electronics,Consumer,Customer_3,4473.27,3207.54,0.14,952.6
+2025-01-22,West,Electronics,Corporate,Customer_82,1531.43,1014.26,0.06,471.23
+2025-02-01,North,Furniture,Consumer,Customer_52,1896.09,999.63,0.18,725.81
+2025-04-26,East,Office Supplies,Consumer,Customer_84,4877.1,3630.3,0.3,515.24
+2025-03-30,North,Office Supplies,Consumer,Customer_12,2773.26,2176.53,0.09,471.93
+2025-06-02,North,Furniture,Corporate,Customer_52,3486.71,2855.0,0.05,544.54
+2025-01-19,North,Electronics,Consumer,Customer_99,4148.18,3127.74,0.28,439.69
+2025-06-16,North,Furniture,Home Office,Customer_62,3144.39,2598.7,0.13,341.3
+2025-02-17,East,Electronics,Consumer,Customer_38,4357.11,2218.76,0.01,2116.56
+2025-01-25,North,Furniture,Consumer,Customer_89,2007.02,1697.03,0.24,69.15
+2025-03-27,West,Electronics,Consumer,Customer_55,922.0,583.91,0.18,255.11
+2025-02-20,East,Office Supplies,Home Office,Customer_25,4855.59,3852.5,0.25,396.14
+2025-01-06,East,Electronics,Home Office,Customer_21,2449.73,1459.29,0.12,843.46
+2025-03-10,West,Electronics,Consumer,Customer_97,470.6,369.19,0.26,40.23
+2025-02-05,South,Electronics,Home Office,Customer_94,4998.64,3471.06,0.3,777.78
+2025-01-09,North,Electronics,Home Office,Customer_100,3891.14,3102.7,0.28,243.68
+2025-04-02,South,Office Supplies,Consumer,Customer_41,1387.27,756.35,0.14,533.81
+2025-02-06,North,Furniture,Consumer,Customer_17,4779.44,2772.19,0.18,1577.1
+2025-04-05,South,Furniture,Home Office,Customer_5,3424.16,2141.32,0.19,957.54
+2025-03-29,South,Office Supplies,Corporate,Customer_90,745.08,508.22,0.2,162.35
+2025-03-15,West,Electronics,Corporate,Customer_52,3907.13,3118.92,0.16,475.64
+2025-02-05,South,Furniture,Consumer,Customer_12,2849.15,2298.78,0.17,308.19
+2025-06-27,North,Electronics,Consumer,Customer_5,2136.72,1089.89,0.04,1004.1
+2025-04-14,East,Furniture,Corporate,Customer_41,3824.66,2854.83,0.19,606.49
+2025-06-28,East,Furniture,Corporate,Customer_73,1222.23,617.34,0.04,580.45
+2025-05-20,South,Furniture,Consumer,Customer_47,1882.82,1199.89,0.18,513.48
+2025-01-04,East,Office Supplies,Home Office,Customer_97,2299.88,1430.27,0.27,559.13
+2025-06-16,East,Furniture,Consumer,Customer_28,2667.15,1703.75,0.24,643.34
+2025-03-15,South,Furniture,Home Office,Customer_19,3186.02,2651.83,0.26,120.01
+2025-04-21,North,Furniture,Corporate,Customer_27,905.95,609.02,0.28,170.1
+2025-01-20,East,Furniture,Home Office,Customer_43,1439.57,1213.57,0.14,125.23
+2025-02-11,West,Office Supplies,Home Office,Customer_49,2564.57,1850.83,0.1,585.51
+2025-05-10,West,Electronics,Home Office,Customer_20,1352.7,737.37,0.02,601.8
+2025-03-24,West,Electronics,Corporate,Customer_12,814.62,446.89,0.05,347.36
+2025-06-12,West,Furniture,Consumer,Customer_32,3276.2,2034.47,0.05,1159.82
+2025-05-24,North,Electronics,Consumer,Customer_85,4504.58,3304.76,0.14,884.5
+2025-04-09,North,Office Supplies,Home Office,Customer_78,1027.14,528.26,0.06,468.07
+2025-01-20,North,Furniture,Consumer,Customer_79,1010.89,568.07,0.08,402.38
+2025-04-12,North,Furniture,Consumer,Customer_84,625.77,413.8,0.04,199.45
+2025-03-21,East,Furniture,Home Office,Customer_4,1190.4,804.94,0.11,319.99
+2025-01-14,South,Office Supplies,Corporate,Customer_20,3513.9,2740.12,0.01,756.21
+2025-03-31,East,Furniture,Consumer,Customer_85,3213.92,2589.62,0.02,592.16
+2025-02-15,South,Electronics,Home Office,Customer_24,4620.19,2757.82,0.02,1816.17
+2025-02-02,West,Office Supplies,Home Office,Customer_92,4069.77,2297.72,0.22,1324.38
+2025-05-02,South,Electronics,Consumer,Customer_95,1204.88,806.77,0.11,331.84
+2025-02-13,North,Furniture,Corporate,Customer_16,3167.62,2096.61,0.11,896.79
+2025-01-08,East,Furniture,Consumer,Customer_77,3787.86,2228.6,0.01,1540.32
+2025-04-02,West,Office Supplies,Corporate,Customer_27,3624.08,2461.07,0.27,673.76
+2025-05-08,South,Furniture,Consumer,Customer_53,2754.14,1808.35,0.03,904.48
+2025-04-15,West,Furniture,Home Office,Customer_83,2756.56,1638.04,0.07,1022.04
+2025-01-20,North,Electronics,Consumer,Customer_25,2010.96,1232.17,0.01,768.74
+2025-01-19,East,Furniture,Corporate,Customer_79,1214.95,658.4,0.1,495.8
+2025-03-03,South,Furniture,Consumer,Customer_22,4474.53,3300.8,0.18,771.02
+2025-03-24,South,Office Supplies,Home Office,Customer_98,3988.02,2115.33,0.15,1573.59
+2025-04-28,East,Office Supplies,Corporate,Customer_15,2778.11,2113.87,0.18,414.21
+2025-03-01,South,Electronics,Home Office,Customer_98,2271.97,1361.64,0.04,864.89
+2025-03-12,North,Office Supplies,Consumer,Customer_98,1942.8,1359.52,0.19,398.71
+2025-04-12,North,Furniture,Corporate,Customer_82,1909.26,1359.43,0.3,263.44
+2025-03-31,West,Furniture,Consumer,Customer_14,1338.69,740.97,0.03,577.64
+2025-01-18,South,Furniture,Corporate,Customer_76,1380.6,780.45,0.05,565.63
+2025-01-21,East,Office Supplies,Home Office,Customer_92,1568.46,1276.52,0.05,252.73
+2025-04-27,South,Electronics,Corporate,Customer_43,585.12,376.61,0.16,161.7
+2025-02-08,North,Furniture,Home Office,Customer_33,4915.42,3142.18,0.03,1699.51
+2025-04-21,West,Electronics,Consumer,Customer_94,4853.46,3814.7,0.26,407.81
+2025-03-31,East,Furniture,Home Office,Customer_8,1437.93,1055.48,0.05,346.5
+2025-06-24,East,Furniture,Corporate,Customer_76,4661.0,3263.0,0.17,1001.82
+2025-02-04,West,Office Supplies,Consumer,Customer_68,1543.9,873.02,0.23,493.33
+2025-04-15,South,Furniture,Corporate,Customer_13,1753.66,1188.39,0.13,451.28
+2025-06-04,South,Furniture,Corporate,Customer_89,1363.57,973.2,0.03,369.92
+2025-05-03,South,Electronics,Home Office,Customer_28,1585.43,878.37,0.17,572.3
+2025-03-13,North,Furniture,Corporate,Customer_96,2509.47,1300.25,0.16,1008.46
+2025-06-05,East,Office Supplies,Corporate,Customer_20,1815.7,948.12,0.04,831.27
+2025-01-02,East,Furniture,Consumer,Customer_16,4951.81,3879.53,0.1,824.69
+2025-01-18,East,Office Supplies,Consumer,Customer_86,1422.28,1089.58,0.2,190.47
+2025-04-16,North,Furniture,Corporate,Customer_15,3059.07,1970.48,0.14,874.46
+2025-02-15,South,Furniture,Corporate,Customer_56,1874.57,1482.25,0.28,129.88
+2025-05-26,South,Electronics,Home Office,Customer_39,4832.13,3652.14,0.04,1083.35
+2025-01-10,South,Office Supplies,Consumer,Customer_5,4704.03,2461.5,0.05,2124.93
+2025-01-14,West,Electronics,Home Office,Customer_4,3757.38,2985.76,0.17,452.24
+2025-05-05,West,Office Supplies,Consumer,Customer_77,870.91,496.91,0.24,269.49
+2025-01-07,South,Electronics,Home Office,Customer_54,985.55,773.76,0.05,187.15
+2025-03-27,South,Electronics,Consumer,Customer_61,3392.95,2122.6,0.16,998.91
+2025-01-27,South,Office Supplies,Corporate,Customer_2,4410.56,3465.86,0.12,680.07
+2025-02-14,West,Electronics,Corporate,Customer_36,2307.85,1527.65,0.11,653.27
+2025-05-06,East,Furniture,Home Office,Customer_99,1646.61,1113.03,0.22,352.45
+2025-02-18,West,Electronics,Corporate,Customer_1,1314.62,833.94,0.27,303.21
+2025-04-11,South,Office Supplies,Home Office,Customer_58,2809.05,2018.26,0.27,411.57
+2025-04-30,East,Office Supplies,Corporate,Customer_42,761.11,547.77,0.28,106.78
+2025-01-29,East,Furniture,Consumer,Customer_60,1807.55,1406.11,0.04,365.29
+2025-03-31,East,Furniture,Consumer,Customer_49,3176.35,2581.94,0.16,340.3
+2025-06-28,West,Furniture,Home Office,Customer_94,3985.27,2427.44,0.05,1458.2
+2025-06-25,South,Office Supplies,Home Office,Customer_80,1392.75,712.72,0.22,526.83
+2025-03-14,North,Office Supplies,Home Office,Customer_5,2935.47,2368.54,0.23,229.35
+2025-04-11,East,Office Supplies,Corporate,Customer_35,1841.99,992.32,0.25,619.42
+2025-05-17,East,Furniture,Home Office,Customer_22,4262.97,2724.25,0.04,1453.46
+2025-05-17,North,Furniture,Consumer,Customer_36,4027.02,2336.63,0.04,1609.85
+2025-06-25,South,Electronics,Consumer,Customer_7,3666.81,2656.24,0.22,607.22
+2025-01-14,West,Office Supplies,Home Office,Customer_3,3530.95,2076.66,0.16,1171.81
+2025-01-27,East,Office Supplies,Consumer,Customer_62,1859.34,1520.86,0.05,292.0
+2025-06-02,South,Office Supplies,Consumer,Customer_78,3000.28,1985.29,0.12,834.97
+2025-05-20,South,Electronics,Consumer,Customer_19,4746.96,3347.46,0.05,1280.83
+2025-02-05,North,Electronics,Home Office,Customer_34,2628.27,1330.79,0.18,1060.94
+2025-01-13,North,Electronics,Corporate,Customer_15,4386.19,3060.67,0.28,711.45
+2025-01-23,North,Office Supplies,Home Office,Customer_82,3543.92,2649.2,0.28,398.57
+2025-04-05,North,Furniture,Home Office,Customer_53,932.19,664.05,0.17,188.9
+2025-03-10,West,Office Supplies,Corporate,Customer_34,2235.83,1849.1,0.22,140.79
+2025-02-04,East,Office Supplies,Home Office,Customer_76,4642.73,2505.37,0.14,1812.37
+2025-04-07,North,Office Supplies,Consumer,Customer_53,4927.24,2678.61,0.25,1632.72
+2025-04-27,South,Furniture,Consumer,Customer_97,4620.04,3148.99,0.26,870.44
+2025-03-02,East,Electronics,Home Office,Customer_17,3038.12,1577.29,0.12,1278.54
+2025-03-31,North,Office Supplies,Corporate,Customer_66,1808.95,907.41,0.24,684.47
+2025-04-06,South,Electronics,Consumer,Customer_18,1800.8,1239.11,0.12,453.64
+2025-03-05,East,Office Supplies,Corporate,Customer_9,4615.31,2868.11,0.1,1516.43
+2025-06-23,North,Office Supplies,Consumer,Customer_20,3740.01,2164.01,0.14,1314.2
+2025-05-02,East,Office Supplies,Corporate,Customer_8,2371.71,1332.27,0.04,992.01
+2025-04-16,West,Furniture,Corporate,Customer_50,2592.17,2126.09,0.13,297.59
+2025-05-03,West,Electronics,Home Office,Customer_25,1939.49,1398.94,0.17,375.69
+2025-01-28,North,Furniture,Consumer,Customer_67,262.85,147.8,0.2,88.77
+2025-02-19,West,Furniture,Consumer,Customer_17,4813.14,3105.05,0.04,1611.83
+2025-03-31,South,Office Supplies,Home Office,Customer_75,609.68,412.0,0.3,106.23
+2025-05-24,South,Furniture,Corporate,Customer_19,3057.85,2331.57,0.02,695.7
+2025-02-18,North,Office Supplies,Home Office,Customer_96,1207.55,690.48,0.27,354.05
+2025-05-26,North,Electronics,Home Office,Customer_46,1115.3,741.92,0.01,367.8
+2025-01-27,West,Office Supplies,Home Office,Customer_52,2911.24,2245.83,0.02,636.3
+2025-04-19,South,Furniture,Consumer,Customer_94,2375.79,1554.4,0.16,631.33
+2025-01-25,South,Electronics,Home Office,Customer_24,2123.66,1177.22,0.17,765.93
+2025-05-22,North,Furniture,Home Office,Customer_76,1073.26,892.03,0.26,41.71
+2025-01-25,North,Electronics,Corporate,Customer_63,1991.88,1444.91,0.08,467.29
+2025-06-22,West,Furniture,Home Office,Customer_45,2161.92,1199.12,0.01,951.99
+2025-04-02,West,Electronics,Home Office,Customer_98,3636.67,1852.82,0.2,1420.18
+2025-06-16,East,Electronics,Home Office,Customer_79,1265.47,930.33,0.07,290.85
+2025-03-16,East,Office Supplies,Home Office,Customer_34,294.61,229.79,0.03,60.4
+2025-01-14,South,Furniture,Home Office,Customer_85,1057.01,616.62,0.2,334.69
+2025-02-22,North,Furniture,Corporate,Customer_94,677.32,509.88,0.07,143.73
+2025-04-16,East,Office Supplies,Home Office,Customer_26,4307.34,2752.45,0.25,1016.47
+2025-06-08,North,Electronics,Corporate,Customer_12,3406.81,2052.95,0.06,1251.66
+2025-02-18,East,Office Supplies,Home Office,Customer_77,4502.41,2385.95,0.0,2116.46
+2025-05-29,North,Electronics,Corporate,Customer_10,1197.85,674.99,0.01,516.87
+2025-04-07,East,Furniture,Home Office,Customer_1,2998.6,2436.17,0.13,367.52
+2025-05-29,South,Electronics,Home Office,Customer_71,4123.73,2436.29,0.1,1481.25
+2025-04-15,East,Electronics,Home Office,Customer_70,2022.52,1201.02,0.18,639.47
+2025-04-05,North,Furniture,Home Office,Customer_33,3195.91,2215.46,0.12,788.7
+2025-06-25,South,Office Supplies,Consumer,Customer_44,2293.41,1908.02,0.09,282.19
+2025-06-13,East,Electronics,Corporate,Customer_100,3865.31,3107.57,0.04,680.43
+2025-04-07,North,Office Supplies,Consumer,Customer_64,2539.67,1980.81,0.27,216.0
+2025-01-09,West,Furniture,Consumer,Customer_52,2241.02,1331.25,0.01,898.56
+2025-02-24,West,Furniture,Home Office,Customer_32,2799.84,1652.64,0.19,881.22
+2025-05-31,North,Office Supplies,Consumer,Customer_45,868.91,733.83,0.25,26.47
+2025-02-05,South,Office Supplies,Corporate,Customer_83,2723.31,1621.21,0.05,1034.02
+2025-06-13,North,Electronics,Home Office,Customer_55,288.28,156.02,0.27,93.34
+2025-01-06,North,Office Supplies,Consumer,Customer_47,2967.28,2059.18,0.08,789.41
+2025-01-20,South,Furniture,Consumer,Customer_80,3326.82,1903.76,0.25,1007.21
+2025-06-21,West,Office Supplies,Consumer,Customer_12,252.78,206.02,0.04,41.7
+2025-03-07,South,Furniture,Corporate,Customer_26,4394.67,3121.01,0.18,878.14
+2025-02-10,West,Furniture,Home Office,Customer_55,3392.18,2781.74,0.05,525.64
+2025-06-25,South,Furniture,Home Office,Customer_10,2210.1,1506.45,0.11,582.09
+2025-03-31,South,Office Supplies,Consumer,Customer_83,425.44,322.62,0.05,92.18
+2025-06-16,East,Furniture,Corporate,Customer_38,597.43,350.02,0.18,193.64
+2025-06-16,East,Furniture,Home Office,Customer_93,2068.62,1291.82,0.09,683.71
+2025-04-27,West,Electronics,Corporate,Customer_22,3651.42,2549.57,0.09,937.54
+2025-02-15,West,Electronics,Corporate,Customer_59,2485.04,2057.34,0.2,179.2
+2025-06-25,West,Furniture,Consumer,Customer_27,3716.35,1898.74,0.06,1706.12
+2025-03-23,South,Electronics,Corporate,Customer_84,1458.87,755.69,0.18,571.88
+2025-06-21,West,Office Supplies,Home Office,Customer_66,2582.56,1593.4,0.18,756.73
+2025-06-13,North,Electronics,Home Office,Customer_6,3900.38,2052.76,0.03,1789.11
+2025-03-12,West,Furniture,Corporate,Customer_79,3695.31,2738.01,0.15,680.15
+2025-03-23,East,Furniture,Home Office,Customer_54,2287.17,1799.28,0.07,407.84
+2025-05-02,North,Office Supplies,Corporate,Customer_88,4037.2,2403.15,0.21,1210.14
+2025-06-13,East,Furniture,Consumer,Customer_40,3033.11,1613.78,0.11,1252.51
+2025-03-02,East,Electronics,Corporate,Customer_1,4603.11,3832.47,0.04,678.58
+2025-01-15,East,Electronics,Corporate,Customer_13,2340.83,1614.39,0.06,656.22
+2025-03-27,East,Furniture,Corporate,Customer_62,4390.14,3434.39,0.22,472.83
+2025-03-07,East,Office Supplies,Corporate,Customer_21,3362.16,2680.38,0.21,328.75
+2025-01-22,West,Electronics,Home Office,Customer_65,1398.41,807.47,0.15,486.06
+2025-02-13,North,Electronics,Consumer,Customer_95,4940.81,2538.59,0.28,1710.51
+2025-03-03,South,Office Supplies,Consumer,Customer_10,3586.76,2020.07,0.28,1064.54
+2025-06-14,East,Furniture,Consumer,Customer_72,2926.14,1497.84,0.27,1033.27
+2025-02-21,North,Office Supplies,Home Office,Customer_51,3547.62,2921.6,0.09,466.38
+2025-04-23,South,Furniture,Home Office,Customer_59,4861.08,3237.36,0.28,943.17
+2025-03-04,East,Furniture,Corporate,Customer_90,4337.8,2653.37,0.25,1142.21
+2025-05-28,East,Office Supplies,Corporate,Customer_27,4178.79,2961.49,0.01,1196.41
+2025-03-26,East,Office Supplies,Consumer,Customer_32,1304.04,687.14,0.04,590.82
+2025-04-07,West,Electronics,Corporate,Customer_44,3542.19,2669.64,0.1,695.44
+2025-01-25,East,Office Supplies,Consumer,Customer_29,513.71,353.85,0.09,136.74
+2025-04-04,East,Electronics,Consumer,Customer_90,3995.47,2872.99,0.1,922.71
+2025-05-21,West,Electronics,Home Office,Customer_62,4452.69,2589.4,0.18,1462.55
+2025-05-09,South,Office Supplies,Corporate,Customer_64,317.12,160.92,0.26,114.97
+2025-03-14,South,Electronics,Corporate,Customer_6,4398.57,3644.98,0.16,401.7
+2025-05-25,West,Office Supplies,Home Office,Customer_74,4034.16,2512.27,0.3,916.77
+2025-05-11,North,Furniture,Consumer,Customer_7,3882.5,2593.34,0.12,1056.21
+2025-02-13,West,Furniture,Consumer,Customer_80,3212.03,2712.33,0.26,82.14
+2025-04-11,West,Electronics,Consumer,Customer_74,3887.71,2517.19,0.13,1117.82
+2025-06-15,West,Furniture,Consumer,Customer_61,3740.4,2014.83,0.07,1594.66
+2025-06-14,East,Office Supplies,Home Office,Customer_97,1902.19,1148.37,0.09,668.22
+2025-04-04,North,Office Supplies,Corporate,Customer_46,1321.32,668.93,0.01,645.78
+2025-06-21,West,Electronics,Home Office,Customer_77,4941.07,3135.18,0.13,1484.72
+2025-02-10,North,Furniture,Home Office,Customer_94,3462.31,2882.33,0.07,458.8
+2025-03-05,West,Furniture,Corporate,Customer_36,3974.46,2568.11,0.03,1346.73
+2025-05-28,North,Electronics,Home Office,Customer_62,4419.77,2932.92,0.28,868.08
+2025-01-05,East,Furniture,Consumer,Customer_16,3144.37,2663.0,0.05,402.76
+2025-01-22,East,Office Supplies,Home Office,Customer_67,1312.02,954.33,0.28,174.01
+2025-01-19,East,Electronics,Consumer,Customer_31,3117.14,1810.23,0.15,1073.12
+2025-05-27,West,Electronics,Corporate,Customer_41,1047.33,592.01,0.07,418.66
+2025-04-11,South,Electronics,Corporate,Customer_3,3942.01,2050.81,0.11,1674.39
+2025-02-22,West,Electronics,Home Office,Customer_45,4851.69,4001.25,0.27,195.46
+2025-05-27,North,Furniture,Consumer,Customer_100,4975.56,3177.81,0.05,1673.36
+2025-02-15,East,Electronics,Consumer,Customer_6,3839.54,2126.58,0.21,1309.81
+2025-04-19,West,Electronics,Consumer,Customer_86,4116.0,2380.43,0.07,1591.51
+2025-03-23,West,Furniture,Home Office,Customer_61,2777.48,1952.65,0.18,574.86
+2025-02-09,East,Office Supplies,Home Office,Customer_58,639.14,378.98,0.26,177.07
+2025-02-24,West,Electronics,Consumer,Customer_90,821.67,685.67,0.27,25.07
+2025-01-25,West,Office Supplies,Corporate,Customer_30,4338.21,3164.01,0.24,653.61
+2025-01-17,East,Furniture,Home Office,Customer_71,2844.12,1828.65,0.03,972.81
+2025-04-16,North,Electronics,Corporate,Customer_85,1988.9,1498.03,0.08,411.31
+2025-01-23,South,Furniture,Home Office,Customer_31,2580.2,1488.94,0.02,1065.46
+2025-02-19,West,Electronics,Home Office,Customer_16,3479.64,2776.48,0.02,668.36
+2025-05-14,South,Furniture,Home Office,Customer_2,2576.7,1822.61,0.14,573.72
+2025-04-15,West,Office Supplies,Consumer,Customer_67,4158.47,3066.06,0.1,884.49
+2025-03-16,East,Electronics,Consumer,Customer_77,2915.51,2354.33,0.08,444.56
+2025-02-08,West,Furniture,Corporate,Customer_96,4027.64,3212.86,0.2,412.02
+2025-02-04,West,Furniture,Consumer,Customer_50,4363.01,3459.67,0.21,445.22
+2025-01-21,East,Furniture,Home Office,Customer_29,3547.86,2542.09,0.2,650.98
+2025-01-07,West,Furniture,Consumer,Customer_14,3813.04,3082.1,0.05,635.61
+2025-06-07,South,Office Supplies,Home Office,Customer_81,4384.85,3459.8,0.01,903.13
+2025-05-03,South,Electronics,Consumer,Customer_35,818.58,622.31,0.1,155.34
+2025-03-04,South,Furniture,Corporate,Customer_57,971.65,768.82,0.25,81.37
+2025-04-14,West,Furniture,Consumer,Customer_95,2635.85,1582.73,0.0,1053.12
+2025-03-13,South,Office Supplies,Home Office,Customer_100,3161.25,2279.69,0.29,423.18
+2025-03-09,North,Furniture,Corporate,Customer_51,1447.06,997.02,0.19,312.57
+2025-03-09,East,Furniture,Home Office,Customer_53,3943.26,3021.96,0.03,862.15
+2025-05-27,West,Furniture,Home Office,Customer_56,2798.08,1733.84,0.29,658.52
+2025-05-17,East,Electronics,Home Office,Customer_85,3236.59,1734.42,0.28,1049.05
+2025-04-16,North,Office Supplies,Home Office,Customer_6,4698.7,2460.91,0.21,1744.43
+2025-01-20,East,Electronics,Consumer,Customer_70,1644.63,861.08,0.21,610.86
+2025-06-25,East,Furniture,Home Office,Customer_5,2994.42,2147.96,0.1,696.74
+2025-04-02,East,Furniture,Consumer,Customer_26,419.56,352.73,0.26,12.29
+2025-03-06,South,Electronics,Consumer,Customer_75,4850.61,2646.15,0.22,1670.89
+2025-06-16,North,Furniture,Home Office,Customer_64,3839.66,1949.56,0.01,1870.9
+2025-06-12,South,Furniture,Consumer,Customer_45,1753.33,1349.44,0.15,272.39
+2025-02-25,East,Office Supplies,Home Office,Customer_84,3479.82,2073.17,0.13,1180.46
+2025-05-28,North,Electronics,Home Office,Customer_96,4986.2,3280.85,0.13,1381.25
+2025-03-06,West,Office Supplies,Consumer,Customer_68,985.39,731.94,0.24,135.2
+2025-01-14,South,Electronics,Corporate,Customer_54,1259.69,929.87,0.02,317.22
+2025-03-05,West,Office Supplies,Corporate,Customer_35,3341.65,2782.93,0.08,425.05
+2025-01-18,West,Electronics,Corporate,Customer_69,925.08,768.06,0.13,96.89
+2025-05-29,South,Furniture,Consumer,Customer_11,2214.69,1415.54,0.19,588.75
+2025-05-17,North,Office Supplies,Home Office,Customer_15,1516.23,975.34,0.3,313.46
+2025-04-11,South,Office Supplies,Consumer,Customer_61,4491.68,2580.86,0.07,1753.61
+2025-05-15,North,Furniture,Corporate,Customer_49,349.44,219.79,0.2,94.71
+2025-04-26,South,Furniture,Corporate,Customer_86,4348.92,3648.17,0.14,396.33
+2025-05-17,North,Electronics,Home Office,Customer_97,1090.52,841.67,0.26,107.08
+2025-05-04,South,Furniture,Home Office,Customer_10,3900.42,2989.12,0.25,423.75
+2025-05-18,East,Office Supplies,Consumer,Customer_29,3205.86,1639.43,0.04,1502.31
+2025-02-27,South,Furniture,Corporate,Customer_100,4620.07,3598.06,0.18,606.2
+2025-02-21,East,Electronics,Corporate,Customer_59,2511.31,1365.69,0.04,1095.39
+2025-02-05,South,Electronics,Consumer,Customer_54,3490.71,1990.35,0.13,1273.46
+2025-02-28,North,Electronics,Consumer,Customer_24,2559.65,1801.2,0.02,732.85
+2025-02-21,West,Electronics,Home Office,Customer_66,1491.17,907.57,0.24,404.66
+2025-03-13,North,Office Supplies,Consumer,Customer_2,2385.06,1253.01,0.0,1132.05
+2025-05-29,West,Electronics,Corporate,Customer_9,2083.97,1479.63,0.14,458.46
+2025-05-17,East,Electronics,Consumer,Customer_33,1599.98,1281.65,0.21,150.33
+2025-05-10,South,Furniture,Consumer,Customer_69,3943.28,2634.81,0.01,1288.75
+2025-04-06,South,Office Supplies,Corporate,Customer_66,703.66,594.83,0.07,84.2
+2025-06-21,South,Electronics,Home Office,Customer_79,883.98,633.24,0.15,184.44
+2025-03-01,North,Electronics,Corporate,Customer_56,3571.83,1798.13,0.17,1470.09
+2025-06-09,West,Office Supplies,Corporate,Customer_78,1767.01,937.85,0.16,687.8
+2025-01-06,North,Electronics,Corporate,Customer_20,1883.01,993.29,0.01,880.3
+2025-03-10,North,Furniture,Home Office,Customer_100,2105.23,1470.8,0.04,592.33
+2025-05-29,South,Office Supplies,Home Office,Customer_59,3509.43,2000.56,0.24,1087.74
+2025-06-05,North,Electronics,Home Office,Customer_41,1003.92,725.58,0.03,263.28
+2025-04-19,North,Furniture,Home Office,Customer_30,3591.08,2972.24,0.01,600.88
+2025-04-10,West,Electronics,Corporate,Customer_98,449.46,336.27,0.16,77.23
+2025-01-09,West,Electronics,Home Office,Customer_50,4380.65,3419.56,0.21,501.12
+2025-05-31,West,Electronics,Corporate,Customer_16,1829.36,965.98,0.24,643.86
+2025-02-04,South,Office Supplies,Consumer,Customer_28,4495.12,3533.41,0.16,602.1
+2025-02-21,North,Furniture,Home Office,Customer_16,2371.13,1622.42,0.19,523.45
+2025-06-19,West,Office Supplies,Corporate,Customer_6,3711.63,1934.22,0.02,1740.29
+2025-01-04,North,Furniture,Corporate,Customer_88,1386.1,1115.98,0.05,235.47
+2025-01-20,West,Furniture,Home Office,Customer_20,1252.23,773.77,0.29,296.89
+2025-06-21,East,Office Supplies,Corporate,Customer_88,1074.17,784.73,0.24,160.54
+2025-06-25,East,Furniture,Consumer,Customer_81,2591.34,1947.96,0.17,423.12
+2025-03-30,South,Office Supplies,Corporate,Customer_76,1296.58,1090.65,0.3,11.44
+2025-06-21,South,Furniture,Corporate,Customer_20,3321.56,2451.58,0.06,770.33
+2025-04-07,West,Office Supplies,Consumer,Customer_41,546.55,322.57,0.01,221.25
+2025-04-06,West,Furniture,Consumer,Customer_94,2420.59,1826.36,0.26,279.55
+2025-05-01,West,Furniture,Home Office,Customer_82,3764.99,2338.35,0.13,1181.92
+2025-06-20,North,Furniture,Consumer,Customer_63,1980.99,1018.3,0.3,665.54
+2025-02-19,South,Electronics,Home Office,Customer_42,4361.75,2850.47,0.17,1140.53
+2025-05-31,East,Furniture,Consumer,Customer_88,3681.24,2965.97,0.15,439.18
+2025-03-29,North,Electronics,Corporate,Customer_93,4523.37,2699.95,0.13,1529.4
+2025-04-15,South,Furniture,Corporate,Customer_9,3043.28,1746.03,0.27,886.41
+2025-05-31,West,Furniture,Consumer,Customer_2,3190.24,2413.7,0.19,473.47
+2025-05-18,East,Electronics,Corporate,Customer_53,831.52,680.32,0.21,63.89
+2025-05-10,North,Office Supplies,Consumer,Customer_15,1062.48,892.47,0.07,132.82
+2025-03-15,West,Furniture,Corporate,Customer_46,1068.69,718.48,0.26,211.28
+2025-01-19,West,Office Supplies,Consumer,Customer_37,1386.71,909.48,0.26,296.96
+2025-03-19,East,Furniture,Consumer,Customer_94,2671.12,1889.91,0.11,634.3
+2025-06-21,West,Office Supplies,Corporate,Customer_95,984.91,826.63,0.12,99.19
+2025-05-02,East,Furniture,Consumer,Customer_86,1439.04,883.31,0.2,411.83
+2025-02-10,South,Office Supplies,Consumer,Customer_57,3912.67,3284.44,0.04,549.98
+2025-05-08,West,Electronics,Consumer,Customer_83,2378.19,1250.27,0.07,1044.68
+2025-06-19,North,Furniture,Home Office,Customer_59,1014.84,627.12,0.16,306.53
+2025-02-19,North,Office Supplies,Consumer,Customer_69,4178.64,2453.07,0.13,1453.96
+2025-04-06,North,Electronics,Consumer,Customer_75,3162.3,1766.03,0.21,1064.23
+2025-05-02,South,Furniture,Consumer,Customer_72,1004.57,761.2,0.01,238.35
+2025-03-01,West,Furniture,Consumer,Customer_70,3386.26,2693.63,0.14,455.59
+2025-06-25,West,Office Supplies,Consumer,Customer_44,4067.22,3269.62,0.18,431.55
+2025-01-24,East,Furniture,Home Office,Customer_83,1188.04,706.19,0.03,464.03
+2025-02-15,West,Electronics,Consumer,Customer_4,474.02,392.4,0.16,43.7
+2025-05-26,East,Electronics,Home Office,Customer_23,388.85,255.97,0.04,125.1
+2025-03-03,West,Office Supplies,Home Office,Customer_20,4682.6,3172.61,0.09,1299.27
+2025-02-19,East,Furniture,Home Office,Customer_93,399.55,337.75,0.04,53.81
+2025-05-17,West,Furniture,Corporate,Customer_52,4832.57,4026.18,0.0,806.39
+2025-05-15,North,Office Supplies,Corporate,Customer_8,3267.78,2153.99,0.26,688.98
+2025-01-06,South,Electronics,Consumer,Customer_39,2674.86,1961.75,0.15,512.5
+2025-01-27,East,Office Supplies,Consumer,Customer_27,870.33,528.97,0.01,337.01
+2025-03-19,West,Furniture,Home Office,Customer_67,3582.47,2635.63,0.06,839.37
+2025-03-19,South,Electronics,Consumer,Customer_10,4855.58,3570.85,0.03,1211.9
+2025-03-07,East,Office Supplies,Corporate,Customer_45,2330.0,1309.47,0.26,717.63
+2025-03-29,North,Electronics,Consumer,Customer_8,3524.6,2927.59,0.25,156.43
+2025-04-16,East,Furniture,Corporate,Customer_9,3479.59,2492.24,0.15,726.38
+2025-01-25,East,Electronics,Home Office,Customer_40,4370.74,2231.85,0.17,1767.38
+2025-06-23,South,Office Supplies,Home Office,Customer_21,4668.55,3439.69,0.21,738.66
+2025-01-24,North,Office Supplies,Home Office,Customer_95,1235.24,787.9,0.2,323.82
+2025-03-04,North,Electronics,Home Office,Customer_86,3325.92,2428.74,0.03,847.29
+2025-01-14,North,Electronics,Consumer,Customer_73,4997.19,4207.69,0.01,764.51
+2025-03-04,North,Furniture,Consumer,Customer_12,2153.16,1666.19,0.26,207.06
+2025-02-28,South,Furniture,Corporate,Customer_46,2921.68,2359.2,0.22,241.1
+2025-05-25,North,Electronics,Home Office,Customer_82,2139.87,1569.93,0.1,462.95
+2025-05-04,North,Furniture,Corporate,Customer_72,4077.66,3177.45,0.23,431.28
+2025-02-28,East,Office Supplies,Corporate,Customer_71,2290.8,1241.78,0.25,762.67
+2025-01-10,East,Electronics,Consumer,Customer_62,2813.55,1726.41,0.0,1087.14
+2025-02-20,South,Furniture,Corporate,Customer_41,1959.02,1456.36,0.12,385.12
+2025-05-03,South,Electronics,Home Office,Customer_41,2065.08,1204.23,0.13,726.62
+2025-01-05,North,Furniture,Corporate,Customer_11,1991.61,1046.83,0.07,875.07
+2025-03-19,East,Office Supplies,Home Office,Customer_2,3096.55,2219.67,0.2,567.23
+2025-05-27,North,Electronics,Home Office,Customer_80,2424.77,1945.07,0.11,346.34

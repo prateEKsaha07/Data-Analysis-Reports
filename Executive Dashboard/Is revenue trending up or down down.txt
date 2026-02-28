@@ -1,0 +1,9 @@
+Is revenue trending up or down? down
+
+Which region drives the most revenue? East
+
+Which category is most profitable? officeSupplies:2.93,Furniture:2.92,Electronics2.92
+
+Are high-revenue regions also high-profit? yup
+
+Where should leadership focus growth?

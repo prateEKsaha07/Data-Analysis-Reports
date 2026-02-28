@@ -1,0 +1,249 @@
+import pandas as pd
+import random
+from datetime import datetime, timedelta
+
+random.seed(21)
+
+# --- Customers table ---
+customer_rows = []
+regions = ["North", "South", "East", "West"]
+segments = ["Consumer", "Corporate", "Home Office"]
+
+for i in range(1, 101):
+    customer_rows.append([
+        f"CUST{i:03d}",
+        random.choice(regions),
+        random.choice(segments)
+    ])
+
+customers_df = pd.DataFrame(customer_rows, columns=["CustomerID", "Region", "Segment"])
+
+customers_path = "/mnt/data/day3_customers.csv"
+customers_df.to_csv(customers_path, index=False)
+
+
+# --- Orders table ---
+order_rows = []
+start_date = datetime(2025, 1, 1)
+products = ["Laptop", "Phone", "Tablet", "Monitor", "Keyboard", "Mouse"]
+
+for i in range(1, 301):
+    date = start_date + timedelta(days=random.randint(0, 180))
+    customer_id = f"CUST{random.randint(1,100):03d}"
+    product = random.choice(products)
+    quantity = random.randint(1, 5)
+    price = random.uniform(50, 1500)
+    sales = round(quantity * price, 2)
+    cost = round(sales * random.uniform(0.5, 0.8), 2)
+    profit = round(sales - cost, 2)
+
+    order_rows.append([
+        f"ORD{i:04d}",
+        date.strftime("%Y-%m-%d"),
+        customer_id,
+        product,
+        quantity,
+        sales,
+        cost,
+        profit
+    ])
+
+orders_df = pd.DataFrame(
+    order_rows,
+    columns=["OrderID", "OrderDate", "CustomerID", "Product", "Quantity", "Sales", "Cost", "Profit"]
+)
+
+orders_path = "/mnt/data/day3_orders.csv"
+orders_df.to_csv(orders_path, index=False)
+
+customers_path, orders_path
+
+Analyzed
+python
+Always show details
+
+Copy code
+import pandas as pd
+import random
+from datetime import datetime, timedelta
+
+random.seed(21)
+
+# Customers table
+customer_rows = []
+regions = ["North", "South", "East", "West"]
+segments = ["Consumer", "Corporate", "Home Office"]
+
+for i in range(1, 101):
+    customer_rows.append([
+        f"CUST{i:03d}",
+        random.choice(regions),
+        random.choice(segments)
+    ])
+
+customers_df = pd.DataFrame(customer_rows, columns=["CustomerID", "Region", "Segment"])
+customers_path = "/mnt/data/day3_customers.csv"
+customers_df.to_csv(customers_path, index=False)
+
+# Orders table
+order_rows = []
+start_date = datetime(2025, 1, 1)
+products = ["Laptop", "Phone", "Tablet", "Monitor", "Keyboard", "Mouse"]
+
+for i in range(1, 301):
+    date = start_date + timedelta(days=random.randint(0, 180))
+    customer_id = f"CUST{random.randint(1,100):03d}"
+    product = random.choice(products)
+    quantity = random.randint(1, 5)
+    price = random.uniform(50, 1500)
+    sales = round(quantity * price, 2)
+    cost = round(sales * random.uniform(0.5, 0.8), 2)
+    profit = round(sales - cost, 2)
+
+    order_rows.append([
+        f"ORD{i:04d}",
+        date.strftime("%Y-%m-%d"),
+        customer_id,
+        product,
+        quantity,
+        sales,
+        cost,
+        profit
+    ])
+
+orders_df = pd.DataFrame(
+    order_rows,
+    columns=["OrderID", "OrderDate", "CustomerID", "Product", "Quantity", "Sales", "Cost", "Profit"]
+)
+
+orders_path = "/mnt/data/day3_orders.csv"
+orders_df.to_csv(orders_path, index=False)
+
+customers_path, orders_path
+Result
+('/mnt/data/day3_customers.csv', '/mnt/data/day3_orders.csv')
+Alright — Day 3 is where we move from single-table dashboards → real relational data modeling. This is a big step toward job-ready Power BI.
+
+👉 Download your datasets:
+
+Customers table: Download
+
+Orders table: Download
+
+You must import both.
+
+📊 Day 3 Task — Customer & Profit Analysis Dashboard
+🎯 Business scenario
+You work for a retail company. Management wants to understand:
+
+Which customers and regions are most profitable?
+
+This dashboard focuses on relationships + profitability.
+
+✅ Step 1 — Create relationship (very important)
+After importing both tables:
+
+Go to Model view and create:
+
+css
+Copy code
+Customers[CustomerID] → Orders[CustomerID]
+One-to-many relationship:
+
+👉 Customers = one
+👉 Orders = many
+
+This is the core skill for Day 3.
+
+✅ Step 2 — Create required measures
+Total Sales
+java
+Copy code
+Total Sales = SUM(Orders[Sales])
+Total Profit
+java
+Copy code
+Total Profit = SUM(Orders[Profit])
+Profit Margin %
+sql
+Copy code
+Profit Margin =
+DIVIDE(SUM(Orders[Profit]), SUM(Orders[Sales]))
+📈 Dashboard visuals to build
+1. KPI cards
+Total Sales
+
+Total Profit
+
+Profit Margin %
+
+2. Profit by Region
+Bar chart:
+
+Axis → Customers[Region]
+
+Values → Total Profit
+
+👉 Which region is most profitable?
+
+3. Segment profitability
+Column chart:
+
+Axis → Customers[Segment]
+
+Values → Total Profit
+
+👉 Which customer segment is best?
+
+4. Product performance
+Bar chart:
+
+Axis → Orders[Product]
+
+Values → Total Sales & Profit
+
+5. Scatter plot (advanced insight)
+Scatter:
+
+X → Sales
+
+Y → Profit
+
+Legend → Segment
+
+Details → Product
+
+👉 Shows high-profit vs high-sales products.
+
+✅ Slicers
+Add:
+
+Region
+
+Segment
+
+Product
+
+Date range
+
+⭐ Bonus challenge (pro level)
+Create a table:
+
+CustomerID
+
+Total Sales
+
+Total Profit
+
+Sort by profit descending.
+
+👉 Identify top 5 customers.
+
+🎯 Questions you must answer
+Which region is most profitable?
+
+Which segment generates the highest margin?
+
+Which product balances high sales and profit best?
+
+Who are the top customers?

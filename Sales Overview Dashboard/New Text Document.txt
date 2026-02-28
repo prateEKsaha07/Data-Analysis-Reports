@@ -1,0 +1,176 @@
+import pandas as pd
+import random
+from datetime import datetime, timedelta
+
+# Generate sample data
+random.seed(42)
+
+rows = []
+start_date = datetime(2025, 1, 1)
+
+regions = ["North", "South", "East", "West"]
+products = ["Laptop", "Phone", "Tablet", "Monitor", "Keyboard", "Mouse"]
+categories = ["Electronics", "Accessories"]
+segments = ["Consumer", "Corporate", "Home Office"]
+
+for i in range(1, 201):
+    order_date = start_date + timedelta(days=random.randint(0, 364))
+    product = random.choice(products)
+    category = "Electronics" if product in ["Laptop", "Phone", "Tablet", "Monitor"] else "Accessories"
+    sales = round(random.uniform(50, 2000), 2)
+    profit = round(sales * random.uniform(0.05, 0.3), 2)
+
+    rows.append([
+        f"ORD{i:04d}",
+        order_date.strftime("%Y-%m-%d"),
+        random.choice(regions),
+        product,
+        category,
+        random.choice(segments),
+        sales,
+        profit
+    ])
+
+columns = [
+    "OrderID",
+    "OrderDate",
+    "Region",
+    "Product",
+    "Category",
+    "CustomerSegment",
+    "Sales",
+    "Profit"
+]
+
+df = pd.DataFrame(rows, columns=columns)
+
+file_path = "/mnt/data/powerbi_sales_dataset_day1.csv"
+df.to_csv(file_path, index=False)
+
+df.head(), file_path
+Result
+(   OrderID   OrderDate Region Product     Category CustomerSegment    Sales  \
+ 0  ORD0001  2025-11-24  South  Laptop  Electronics        Consumer    98.77   
+ 1  ORD0002  2025-02-22   West   Mouse  Accessories        Consumer  1494.30   
+ 2  ORD0003  2025-01-16  North  Laptop  Electronics     Home Office   476.34   
+ 3  ORD0004  2025-04-12  South   Mouse  Accessories       Corporate  1317.27   
+ 4  ORD0005  2025-10-29  South  Tablet  Electronics     Home Office  1628.39   
+ 
+    Profit  
+ 0   11.73  
+ 1  278.45  
+ 2   84.00  
+ 3  245.32  
+ 4   84.07  ,
+ '/mnt/data/powerbi_sales_dataset_day1.csv')
+Nice — we’ll treat this like a daily Power BI internship challenge. Here’s Day 1 dataset + real job-style dashboard task.
+
+👉 Download your dataset here:
+Download the CSV
+
+It contains 200 rows with:
+
+OrderID
+
+OrderDate
+
+Region
+
+Product
+
+Category
+
+CustomerSegment
+
+Sales
+
+Profit
+
+📊 Day 1 Dashboard Task (Sales Performance Dashboard)
+Imagine you’re a junior data analyst at a retail company. Your manager wants a dashboard to understand sales performance.
+
+🎯 Objective
+Build a Sales Performance Dashboard that answers:
+
+How are total sales and profit performing?
+
+Which regions and products are driving revenue?
+
+Which customer segment is most profitable?
+
+✅ What your dashboard should include
+1. KPI Cards (Top Section)
+Create cards for:
+
+Total Sales
+
+Total Profit
+
+Profit Margin (%) = Profit / Sales
+
+Total Orders
+
+2. Sales Trend Over Time
+📈 Line chart:
+
+Axis → OrderDate (month-wise)
+
+Values → Sales
+
+Goal: Show monthly sales trend.
+
+3. Regional Performance
+📊 Bar or column chart:
+
+Axis → Region
+
+Values → Sales and Profit
+
+Goal: Compare regions.
+
+4. Product Analysis
+📦 Bar chart:
+
+Axis → Product
+
+Values → Sales
+
+Sort descending to find top-selling products.
+
+5. Customer Segment Insights
+🥧 Pie or donut chart:
+
+Legend → CustomerSegment
+
+Values → Profit
+
+6. Filters (Very important — job-style)
+Add slicers for:
+
+Region
+
+Category
+
+CustomerSegment
+
+Date range
+
+⭐ Bonus (If you want to go pro)
+Try:
+
+A Top 5 Products visual
+
+Drill-through page for product details
+
+Conditional formatting on profit
+
+When you finish:
+
+👉 Tell me what insights you found (like a real analyst would).
+Tomorrow I’ll give you Day 2 dataset with a harder business scenario (marketing or finance style).
+
+If you want, I can also:
+
+✅ Review your dashboard design
+✅ Suggest improvements
+✅ Give interview-style questions based on it 

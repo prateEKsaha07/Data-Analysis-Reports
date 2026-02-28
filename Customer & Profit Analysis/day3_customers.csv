@@ -1,0 +1,101 @@
+CustomerID,Region,Segment
+CUST001,South,Corporate
+CUST002,West,Home Office
+CUST003,East,Corporate
+CUST004,South,Corporate
+CUST005,South,Home Office
+CUST006,South,Consumer
+CUST007,North,Corporate
+CUST008,West,Consumer
+CUST009,South,Consumer
+CUST010,South,Home Office
+CUST011,North,Corporate
+CUST012,West,Home Office
+CUST013,West,Consumer
+CUST014,East,Home Office
+CUST015,West,Home Office
+CUST016,North,Home Office
+CUST017,East,Consumer
+CUST018,South,Home Office
+CUST019,North,Consumer
+CUST020,North,Corporate
+CUST021,South,Home Office
+CUST022,East,Corporate
+CUST023,West,Consumer
+CUST024,South,Home Office
+CUST025,North,Corporate
+CUST026,South,Consumer
+CUST027,South,Consumer
+CUST028,North,Consumer
+CUST029,West,Home Office
+CUST030,West,Consumer
+CUST031,East,Consumer
+CUST032,West,Corporate
+CUST033,East,Corporate
+CUST034,West,Corporate
+CUST035,West,Corporate
+CUST036,East,Consumer
+CUST037,North,Consumer
+CUST038,West,Consumer
+CUST039,West,Consumer
+CUST040,South,Home Office
+CUST041,East,Home Office
+CUST042,North,Consumer
+CUST043,South,Home Office
+CUST044,East,Corporate
+CUST045,East,Home Office
+CUST046,East,Consumer
+CUST047,North,Consumer
+CUST048,North,Consumer
+CUST049,West,Corporate
+CUST050,South,Home Office
+CUST051,North,Home Office
+CUST052,South,Corporate
+CUST053,South,Home Office
+CUST054,North,Corporate
+CUST055,West,Home Office
+CUST056,West,Home Office
+CUST057,South,Consumer
+CUST058,South,Home Office
+CUST059,North,Corporate
+CUST060,West,Home Office
+CUST061,West,Consumer
+CUST062,East,Consumer
+CUST063,East,Home Office
+CUST064,East,Consumer
+CUST065,West,Consumer
+CUST066,South,Corporate
+CUST067,North,Corporate
+CUST068,South,Consumer
+CUST069,West,Consumer
+CUST070,East,Consumer
+CUST071,West,Consumer
+CUST072,South,Corporate
+CUST073,South,Corporate
+CUST074,West,Corporate
+CUST075,West,Corporate
+CUST076,South,Home Office
+CUST077,East,Consumer
+CUST078,North,Corporate
+CUST079,South,Home Office
+CUST080,North,Corporate
+CUST081,East,Home Office
+CUST082,South,Home Office
+CUST083,West,Corporate
+CUST084,West,Consumer
+CUST085,South,Consumer
+CUST086,North,Corporate
+CUST087,North,Consumer
+CUST088,North,Home Office
+CUST089,West,Consumer
+CUST090,North,Consumer
+CUST091,East,Consumer
+CUST092,East,Home Office
+CUST093,East,Corporate
+CUST094,West,Consumer
+CUST095,South,Consumer
+CUST096,South,Corporate
+CUST097,South,Home Office
+CUST098,North,Home Office
+CUST099,North,Consumer
+CUST100,West,Corporate

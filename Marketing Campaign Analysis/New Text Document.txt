@@ -1,0 +1,255 @@
+import pandas as pd
+import random
+from datetime import datetime, timedelta
+
+random.seed(7)
+
+rows = []
+start_date = datetime(2025, 6, 1)
+
+channels = ["Social Media", "Email", "Google Ads", "Affiliate", "Direct"]
+campaigns = ["Summer Sale", "Brand Awareness", "Product Launch", "Retargeting"]
+regions = ["North", "South", "East", "West"]
+
+for i in range(1, 251):
+    date = start_date + timedelta(days=random.randint(0, 119))
+    impressions = random.randint(1000, 50000)
+    clicks = random.randint(100, impressions // 5)
+    conversions = random.randint(10, clicks // 2)
+    cost = round(random.uniform(100, 5000), 2)
+    revenue = round(conversions * random.uniform(20, 150), 2)
+
+    rows.append([
+        f"CMP{i:04d}",
+        date.strftime("%Y-%m-%d"),
+        random.choice(channels),
+        random.choice(campaigns),
+        random.choice(regions),
+        impressions,
+        clicks,
+        conversions,
+        cost,
+        revenue
+    ])
+
+columns = [
+    "CampaignID",
+    "Date",
+    "Channel",
+    "CampaignType",
+    "Region",
+    "Impressions",
+    "Clicks",
+    "Conversions",
+    "Cost",
+    "Revenue"
+]
+
+df = pd.DataFrame(rows, columns=columns)
+
+file_path = "/mnt/data/powerbi_marketing_dataset_day2.csv"
+df.to_csv(file_path, index=False)
+
+df.head(), file_path
+
+Analyzed
+python
+Always show details
+
+Copy code
+import pandas as pd
+import random
+from datetime import datetime, timedelta
+
+random.seed(7)
+
+rows = []
+start_date = datetime(2025, 6, 1)
+
+channels = ["Social Media", "Email", "Google Ads", "Affiliate", "Direct"]
+campaigns = ["Summer Sale", "Brand Awareness", "Product Launch", "Retargeting"]
+regions = ["North", "South", "East", "West"]
+
+for i in range(1, 251):
+    date = start_date + timedelta(days=random.randint(0, 119))
+    impressions = random.randint(1000, 50000)
+    clicks = random.randint(100, max(101, impressions // 5))
+    conversions = random.randint(10, max(11, clicks // 2))
+    cost = round(random.uniform(100, 5000), 2)
+    revenue = round(conversions * random.uniform(20, 150), 2)
+
+    rows.append([
+        f"CMP{i:04d}",
+        date.strftime("%Y-%m-%d"),
+        random.choice(channels),
+        random.choice(campaigns),
+        random.choice(regions),
+        impressions,
+        clicks,
+        conversions,
+        cost,
+        revenue
+    ])
+
+columns = [
+    "CampaignID",
+    "Date",
+    "Channel",
+    "CampaignType",
+    "Region",
+    "Impressions",
+    "Clicks",
+    "Conversions",
+    "Cost",
+    "Revenue"
+]
+
+df = pd.DataFrame(rows, columns=columns)
+
+file_path = "/mnt/data/powerbi_marketing_dataset_day2.csv"
+df.to_csv(file_path, index=False)
+
+df.head(), file_path
+Result
+(  CampaignID        Date       Channel    CampaignType Region  Impressions  \
+ 0    CMP0001  2025-07-12  Social Media  Product Launch  North        10886   
+ 1    CMP0002  2025-09-25         Email     Summer Sale   West        34255   
+ 2    CMP0003  2025-06-08  Social Media     Retargeting  North        38057   
+ 3    CMP0004  2025-06-29  Social Media  Product Launch  South         4052   
+ 4    CMP0005  2025-06-14  Social Media     Summer Sale  South        39115   
+ 
+    Clicks  Conversions     Cost   Revenue  
+ 0    1717          676   336.60  85693.58  
+ 1    1858           48   521.14   3569.39  
+ 2    1114          238  3190.07  22797.92  
+ 3     670           78  1519.09   3022.75  
+ 4    4779          779  1924.75  71050.08  ,
+ '/mnt/data/powerbi_marketing_dataset_day2.csv')
+Nice — welcome to Day 2 challenge. Today we’re moving from sales → marketing analytics, which is very common in real analyst jobs.
+
+👉 Download today’s dataset:
+Download the CSV
+
+This file has 250 rows with:
+
+CampaignID
+
+Date
+
+Channel
+
+CampaignType
+
+Region
+
+Impressions
+
+Clicks
+
+Conversions
+
+Cost
+
+Revenue
+
+📊 Day 2 Task — Marketing Performance Dashboard
+🎯 Business scenario
+You work in a marketing team. Your manager wants to know:
+
+“Which marketing channels give the best return on investment?”
+
+Your dashboard should help decide where to spend more budget.
+
+✅ Required calculations (important — real job skill)
+Create these measures:
+
+1. Click Through Rate (CTR)
+ini
+Copy code
+CTR = SUM(Clicks) / SUM(Impressions)
+2. Conversion Rate
+pgsql
+Copy code
+Conversion Rate = SUM(Conversions) / SUM(Clicks)
+3. Return on Investment (ROI)
+pgsql
+Copy code
+ROI = (SUM(Revenue) - SUM(Cost)) / SUM(Cost)
+✅ Dashboard visuals to build
+1. KPI Cards (top row)
+Total Revenue
+
+Total Cost
+
+Total Conversions
+
+ROI %
+
+2. Channel Performance (most important)
+Bar chart:
+
+Axis → Channel
+
+Values → Revenue & ROI
+
+👉 This answers: Which channel performs best?
+
+3. Campaign Type Comparison
+Column chart:
+
+Axis → CampaignType
+
+Values → Conversions
+
+4. Trend Over Time
+Line chart:
+
+Axis → Date (month)
+
+Values → Revenue
+
+5. Efficiency Scatter Plot (pro analyst visual)
+Scatter chart:
+
+X-axis → Cost
+
+Y-axis → Revenue
+
+Legend → Channel
+
+👉 Shows high cost vs high return channels.
+
+✅ Slicers to add
+Channel
+
+CampaignType
+
+Region
+
+Date range
+
+⭐ Bonus challenge (optional)
+Create a table that shows:
+
+Channel
+
+CTR
+
+Conversion Rate
+
+ROI
+
+Then sort by ROI descending.
+
+When you finish, tell me:
+
+👉 Which channel you would invest more money in and why.
+
+That’s how analysts think — not just charts, but decisions. 
+
+
+
+
+
+
+

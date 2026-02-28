@@ -1,0 +1,161 @@
+import pandas as pd
+import numpy as np
+
+np.random.seed(42)
+
+# Generate executive dashboard dataset
+dates = pd.date_range(start="2025-01-01", periods=180, freq="D")
+regions = ["North", "South", "East", "West"]
+categories = ["Electronics", "Furniture", "Office Supplies"]
+
+data = []
+
+for date in dates:
+    for region in regions:
+        for category in categories:
+            revenue = np.random.randint(5000, 20000)
+            cost = revenue * np.random.uniform(0.55, 0.8)
+            profit = revenue - cost
+            data.append([date, region, category, revenue, round(cost, 2), round(profit, 2)])
+
+df = pd.DataFrame(data, columns=["Date", "Region", "Category", "Revenue", "Cost", "Profit"])
+
+file_path = "/mnt/data/day4_executive_dashboard.csv"
+df.to_csv(file_path, index=False)
+
+file_path
+
+Analyzed
+python
+Always show details
+
+Copy code
+import pandas as pd
+import numpy as np
+
+np.random.seed(42)
+
+dates = pd.date_range(start="2025-01-01", periods=180, freq="D")
+regions = ["North", "South", "East", "West"]
+categories = ["Electronics", "Furniture", "Office Supplies"]
+
+data = []
+
+for date in dates:
+    for region in regions:
+        for category in categories:
+            revenue = np.random.randint(5000, 20000)
+            cost = revenue * np.random.uniform(0.55, 0.8)
+            profit = revenue - cost
+            data.append([date, region, category, revenue, round(cost, 2), round(profit, 2)])
+
+df = pd.DataFrame(data, columns=["Date", "Region", "Category", "Revenue", "Cost", "Profit"])
+
+file_path = "/mnt/data/day4_executive_dashboard.csv"
+df.to_csv(file_path, index=False)
+
+file_path
+Result
+'/mnt/data/day4_executive_dashboard.csv'
+Good — Day 4 is where we level up. This one is resume-tier if you build it clean.
+
+I made your dataset here:
+
+👉 Download Day 4 dataset
+
+🔥 Day 4 — Executive Dashboard Task
+(Think: CEO wants a 10-second overview of the business)
+
+You’re building this in Microsoft Power BI.
+
+🎨 Mandatory color palette (use this)
+Executive Clean Theme
+
+Background: #F9FAFB
+
+Primary: #1F3A8A
+
+Secondary: #3B82F6
+
+Accent (Profit): #10B981
+
+Text: #111827
+
+👉 Don’t improvise colors today. Follow this strictly.
+
+🧱 Layout blueprint (copy this structure)
+Page name: Executive Overview
+Top row — KPI cards
+Create 4 cards:
+
+Total Revenue
+
+Total Profit
+
+Profit Margin %
+
+Average Daily Revenue
+
+Middle row
+Left: Revenue Trend (Line chart)
+Axis → Date
+
+Values → Revenue
+
+👉 Shows growth over time
+
+Right: Revenue by Region (Bar chart)
+Axis → Region
+
+Values → Revenue
+
+👉 Shows geographic performance
+
+Bottom row
+Left: Category Performance (Stacked bar)
+Axis → Category
+
+Values → Revenue & Profit
+
+👉 Compare product performance
+
+Right: Profit vs Revenue Scatter
+X → Revenue
+
+Y → Profit
+
+Legend → Region
+
+👉 Shows efficiency
+
+Filters (top or left side only)
+Add slicers:
+
+Date range
+
+Region
+
+Category
+
+👉 Use dropdown style slicers (no big button walls)
+
+📊 Business questions you must answer
+After building, you should be able to answer:
+
+Is revenue trending up or down?
+
+Which region drives the most revenue?
+
+Which category is most profitable?
+
+Are high-revenue regions also high-profit?
+
+Where should leadership focus growth?
+
+You’ll explain these like a business analyst.
+
+⭐ Extra challenge (resume booster)
+If you want advanced points:
+
+👉 Add a Profit Margin by Region chart
+👉 Add conditional formatting (green = good, red = bad)
